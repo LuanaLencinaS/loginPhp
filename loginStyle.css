@@ -1,0 +1,98 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(yqpzeewf3jfm1nuyz6kqqaemomvrrzgxgxbqivsxkipstnb6cqqztqgejws0bkyy-.jpg);
+    background-size: cover;
+    font-family: "Comfortaa", sans-serif;
+}
+.login {
+    /* centraliza... */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    box-sizing: border-box;
+    /*border-box
+        Calcula largura (width) e altura (height) incluindo o tamanho padding size e a propriedade border, mas não inclue a propriedade margin.*/
+    
+    padding-top: 68px;
+    padding-left: 28px;
+    width: 320px;
+    height: 420px;
+    border: 2px solid;
+    border-radius: 80px 0px 80px 0px;
+    /*  */
+    color: #ffffff;
+    background-color: rgba(255, 0, 87, 0.8);
+}
+
+.usuario {
+    position: absolute;
+    top: -50px;
+    left: 112px;
+}
+
+h1 {
+    margin: auto;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+    letter-spacing: 10px; /* espaçamento entre as letras */
+    text-transform: uppercase; /* deixa tudo maiúsculo */
+    text-align: center;
+    font-size: 25px;
+}
+
+.login p {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold; /* muda o estilo da fonte */
+}
+
+.login input {
+    width: 90%;
+    margin-bottom: 21px;
+}
+
+.campoUsuario,.campoSenha {
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    outline: none; /* contorno outline-style , outline-width e outline-color em uma única declaração */
+    height: 40px;
+    color: #000000;
+    font-size: 16px;
+}
+.campoUsuario::placeholder, .campoSenha::placeholder{
+    color: rgba(112, 0, 69, 0.8);
+}
+
+.botaoSubmit {
+    border: none;
+    outline: none;
+    height: 35px;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+.botaoSubmit:hover {
+    cursor: pointer;
+    background-color: #19b6ff;
+    transition: 0.2s;
+}
+
+.login a {
+   font-weight: bold; 
+   text-decoration: none;
+   font-size: 12px;
+   line-height: 20px;
+   color: #700045;
+   transition: 0.2s;
+}
+.login a:hover {
+    transition: 0.2s;
+    color: #19b6ff;
+}
+

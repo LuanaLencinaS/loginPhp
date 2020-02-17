@@ -1,0 +1,170 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../ProjetoTelasLogin/images/backgroundLogin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Comfortaa", sans-serif;
+}
+.login {
+    /* centraliza... */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    box-sizing: border-box;
+    /*border-box
+        Calcula largura (width) e altura (height) incluindo o tamanho padding size e a propriedade border, mas não inclue a propriedade margin.*/
+    
+    border: none;
+    border-bottom: 3px solid #ffffff;
+    border-top: 3px solid #ffffff; 
+
+    padding-top: 68px;
+    padding-left: 28px;
+    width: 320px;
+    height: 420px;
+    border-radius: 80px 0px 80px 0px;
+    /*  */
+    color: #ffffff;
+    background-color: rgba(255, 0, 87, 0.5);
+}
+
+.usuario {
+    position: absolute;
+    top: -40px;
+    left: 112px;
+}
+
+h1 {
+    margin: auto;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-right: 18px;
+    padding-bottom: 20px;
+    letter-spacing: 10px; /* espaçamento entre as letras */
+    text-transform: uppercase; /* deixa tudo maiúsculo */
+    text-align: center;
+    font-size: 25px;
+}
+
+.login p {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold; /* muda o estilo da fonte */
+}
+
+.icon {
+    /* background: transparent; */
+    background-color: #ffffff;
+
+    position: absolute;
+    margin-top: 0%;
+    height: 42px;
+    width: 36px;
+
+    border: none;
+    border-radius: 5px 0 0 0;
+    border-bottom: 1px solid #ffffff;
+    /* border-top: 1px solid #ffffff; */
+    border-left: 1px solid #ffffff;  
+    
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    outline: none;
+
+}
+.iconUsuario {
+    height: 33px;
+    margin: auto;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 2px;
+}
+.iconSenha{
+    height: 33px;
+    margin: auto;
+    margin-top: 4px;
+    margin-left: 2px;
+}
+.check {
+    position: absolute;
+    margin-left: -260px;
+    margin-top: 60px;
+}
+.lembrarDeMim {
+    font-weight: bold; 
+   text-decoration: none;
+   font-size: 12px;
+   line-height: 20px;
+   color: #700045;
+   margin-left: 50px;
+}
+
+/* estiliza campo usuário e senha */
+.campoUsuario,.campoSenha {
+    width: 77.5%;
+    height: 40px;
+    color: #000000;
+    font-size: 16px;
+    margin-bottom: 21px;
+    margin-left: 36px;
+
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    /* background: transparent; */
+    background-color: #ffffff;
+
+    outline: none; /* contorno outline-style , outline-width e outline-color em uma única declaração */
+    
+}
+.campoUsuario::placeholder, .campoSenha::placeholder{
+    color: rgba(112, 0, 69, 0.8);
+}
+
+.botaoSubmit {
+    width: 90%;
+    margin-bottom: 21px;
+    border: none;
+    outline: none;
+    height: 35px;
+    color: #FFFFFF;
+    
+    font-size: 19px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    left: 42px;
+
+    background-color: #FE4E83;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.botaoSubmit:hover {
+    cursor: pointer;
+    background-color: #19b6ff;
+    transition: 0.2s;
+}
+
+.login a {
+   font-weight: bold; 
+   text-decoration: none;
+   font-size: 12px;
+   line-height: 20px;
+   color: #700045;
+   transition: 0.2s;
+}
+.login a:hover {
+    transition: 0.2s;
+    color: #19b6ff;
+}
+
